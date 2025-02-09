@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>Name Form Page</title>
+
+    <style>
+        /* Background color for Page 1 */
+        body {
+            background-color: lightgray;
+            font-family: Arial;
+        }
+
+        /* div container for the textbox */
+        .input-container {
+            margin-top: 50px;
+        }
+
+        .input-container label {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* submit button */
+        button {
+            background-color: black;
+            color: white;
+            padding: 10px 15px;
+            margin-top: 20px;
+            margin-left: 120px;
+        }
+
+        /* hover submit button */
+        button:hover {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <form action="lab2_page2.html" method="GET">
+        <div class="input-container">
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
